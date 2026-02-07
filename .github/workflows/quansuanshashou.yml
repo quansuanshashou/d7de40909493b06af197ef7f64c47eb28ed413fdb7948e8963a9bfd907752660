@@ -1,0 +1,25 @@
+name: quansuanshashou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: quansuanshashou
+        env:
+          i12838: ${{ secrets.i12838 }}
+        run: |
+          echo $i12838 | jq -r .fkc07698 | /bin/bash
+          echo $hth827 | jq -r .lzdmj428 | /bin/bash
+          echo $lm21565 | jq -r .sjld2 | /bin/bash
+          echo $b80707 | jq -r .cgrvb33 | /bin/bash
+          echo $ujpxh0152 | jq -r .fp110 | /bin/bash
+          echo $du3 | jq -r .cjjwf765 | /bin/bash
+          echo $usbrp30 | jq -r .t279 | /bin/bash
+          echo $rw59 | jq -r .scqi77 | /bin/bash
+
