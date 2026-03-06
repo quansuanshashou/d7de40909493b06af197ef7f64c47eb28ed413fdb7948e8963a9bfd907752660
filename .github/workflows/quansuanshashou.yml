@@ -1,25 +1,29 @@
 name: quansuanshashou
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 5/6 * * *'
+    - cron: '48 3/6 * * *'
 
-jobs:  # 17724
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: quansuanshashou
         env:
-          i12838: ${{ secrets.i12838 }}
+          g917: ${{ secrets.g917 }}
         run: |
-          echo $i12838 | jq -r .fkc07698 | /bin/bash
-          echo $hth827 | jq -r .lzdmj428 | /bin/bash
-          echo $lm21565 | jq -r .sjld2 | /bin/bash
-          echo $b80707 | jq -r .cgrvb33 | /bin/bash
-          echo $ujpxh0152 | jq -r .fp110 | /bin/bash
-          echo $du3 | jq -r .cjjwf765 | /bin/bash
-          echo $usbrp30 | jq -r .t279 | /bin/bash
-          echo $rw59 | jq -r .scqi77 | /bin/bash
+          echo $g917 | jq -r .q69452 | /bin/bash
+          echo $txdbt8 | jq -r .j7900 | /bin/bash
+          echo $va9 | jq -r .qbk2179 | /bin/bash
+          echo $mma2779 | jq -r .uwx120 | /bin/bash
+          echo $mpex1 | jq -r .xe1 | /bin/bash
+          echo $mvyf19 | jq -r .rud1 | /bin/bash
+          echo $tliki98510 | jq -r .trmzy24 | /bin/bash
+          echo $lov9598 | jq -r .fy2663 | /bin/bash
+          echo $q5734 | jq -r .w353 | /bin/bash
+          echo $vayxg124 | jq -r .fu0 | /bin/bash
+          echo $cmby5212 | jq -r .vz9 | /bin/bash
+          echo $zkhea14902 | jq -r .szca9395 | /bin/bash
 
